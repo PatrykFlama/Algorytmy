@@ -1,10 +1,11 @@
 # Knuth Morris Pratt algorithm (KMP)
 ## Działanie ogółem
-Oblicza tablicę prefikso-sufiksów w czasie liniowym, dzięki czemu możemy znaleźć powtórzenia wzorca w tekście
+Oblicza tablicę prefikso-sufiksów w czasie liniowym (dzięki czemu możemy znaleźć powtórzenia wzorca w tekście)
 
 ## Działanie konkretniej
-Prefikso-sufiks to takie podsłowo, które jest zarówno prefiksem danego słowa, jak i jego sufiksem. Prefikso-sufiks właściwy, podobnie jak prefiks właściwy i sufiks właściwy, to taki prefikso-sufiks, który nie jest całym słowem.
-Ten algorytm opiera się na obliczniu tablicy najdłuższego prefikso-sufiksu właściwego danego słowa. Tak jak w DP iteruje on się po całym słowie; od [0:0] do [0:n]
+Prefikso-sufiks to takie podsłowo, które jest zarówno prefiksem danego słowa, jak i jego sufiksem. 
+Prefikso-sufiks właściwy, podobnie jak prefiks właściwy i sufiks właściwy, to taki prefikso-sufiks, który nie jest całym słowem.
+Ten algorytm opiera się na obliczaniu tablicy najdłuższego prefikso-sufiksu właściwego danego słowa.
 Dzięki temu jesteśmy w stanie znaleźć dane słowo w tekście, nawet jeżeli jest ono zlepkiem samego siebie, np: *abab* w *abababababab* powtarza się 5, a nie 3 razy.
 Tablica którą oblicza to tablica π (powód nazwy nieznany), a czas jej obliczania jest liniowy.
 
