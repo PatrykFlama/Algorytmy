@@ -13,11 +13,11 @@
 
 ## Operacje na drzewach
 * [x] LCA
+* [ ] Binary lifting
 * [ ] Drzewa przedział-punkt
 * [ ] Drzewa przedział-przedział (lazy)
 * [ ] MST
 * [ ] HLD
-* [ ] Binary lifting
 
 ## Operacje na grafach
 * [x] DFS
