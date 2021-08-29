@@ -1,68 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+#define x first
+#define y second
+#define ld long double
 
-template <typename T>
-struct Point {
-    T x, y;
-
-    Point() : Point(0, 0) {}
-
-    Point(T _x, T _y) : x(_x), y(_y) {}
-
-    friend ostream &operator<<(ostream &os, const Point<T> &point) {
-        os << point.x << " " << point.y;
-        return os;
-    }
-
-    friend istream &operator>>(istream &is, Point<T> &point) {
-        is >> point.x >> point.y;
-        return is;
-    }
-
-    Point<T> operator+(const Point<T> &p2) const { return {x + p2.x, y + p2.y}; }
-
-    Point<T> &operator+=(const Point<T> &p2) {
-        x += p2.x, y += p2.y;
-        return *this;
-    }
-
-    Point<T> operator-(const Point<T> &p2) const { return {x - p2.x, y - p2.y}; }
-
-    void fun() {
-        x = 10;
-    }
-
-    T dot(const Point<T> &p2) const { // iloczyn skalarny
-        return x * p2.x + y * p2.y;
-    }
-
-    T cross(const Point<T> &p2) const { // iloczyn wektorowy
-        return x * p2.y - y * p2.x;
-    }
-};
-
-template <typename T>
-T triangle_area(const Point<T> &p1, const Point<T> &p2, const Point<T> &p3) {
-    return 0.5 * abs((p2 - p1).cross(p3 - p1));
-}
 
 int main() {
-    Point<long double> p1{0, 0};
-    Point<long double> p2{10, 0};
-    Point<long double> p3(5, 5 * sqrtl(3));
-    Point<long double> p4(5, 5 * sqrtl(3));
+    pair<ld, ld> p1, p2, p3;
 
-    p1 = p2 = p3 = p4;
+    p1 = {1, 1}, p2 = {1, 2}, p3 = {2, 1};          // triangle points
 
-    cout << fixed << setprecision(30);      // precision of float/double output
+    pair<ld, ld> v1 = {p2.x-p1.x, p2.y-p1.y}, v2 = {p3.x-p1.x, p3.y-p1.y};  // arm/vector lenghts
 
-    cout << 25 * sqrtl(3) << "\n";
-
-    Point<long double> offset(100, 100);
-    p1 = p1 + offset;
-    p2 = p2 + offset;
-    p3 = p3 + offset;
-
-    cout << triangle_area(p1, p2, p3) << "\n";
+    cout << 0.5f * abs(v1.x*v2.y + v1.y*v2.x) << '\n';      // cross product
 }
