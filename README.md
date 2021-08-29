@@ -1,48 +1,85 @@
 # Algorytmy
 
+## Algebra
+* Podstawy
+	* [x] [Szybkie potęgowanie](Algorytmy/Algebra/Podstawy/Szybkie_potegowanie)
+	* [ ] **N**ajwiększy **W**spólny **D**zielnik (**G**reatest **C**ommon **D**ivisor)
+	* [ ] **N**ajmniejsza **W**spólna **W**ielokrotność (**L**owest **C**ommon **M**ultiple)
+	* [ ] Rozszerzony algorytm Euklidesa
+	* [ ] Liczby Fibonacciego
+* Liczby pierwsze
+	* [ ] Sito Erastotenesa
+	* [ ] Sito Erastotenesa w czasie liniowym
+	* [ ] Test pierwszości
+	* [ ] Rozkład na czynniki pierwsze
+* Systemy liczbowe
+	* [x] [Kod Graya](Algorytmy/Algebra/Systemy_liczbowe/Kod_Graya)
+
+## Struktury danych
+* [ ] Stos (stack)
+* [ ] Kolejka (queue)
+* [ ] Sparse table
+
 ## Algorytmy tekstowe
-* [x] Hash
-* [ ] Hash tree
-* [x] KMP
-* [x] TRIE
+* [ ] Hashowanie wyrazów
+* [ ] Knuth-Morris-Pratt
+* [ ] Aho-Corasick
+* [ ] Drzewo TRIE
+* [ ] Drzewo hashowe
 
 ## Geometria
-* [x] Struktura
-* [x] Pole trójkata
-* [ ] Pole wielokata
-* [x] Otoczka wypukła (convex hull)
+* [ ] Struktura punktu
+* [ ] Pole trójkąta
+* [ ] Pole wielokąta
+* [ ] Convex hull (otoczka wypukła)
 
-## Operacje na drzewach
-* [x] LCA
-* [ ] Binary lifting
-* [ ] Drzewa przedział-punkt
-* [ ] Drzewa przedział-przedział (lazy)
-* [ ] MST
-* [ ] HLD
+## Grafy
+* Przeszukiwania
+	* [ ] Wgłąb (**D**epth **F**irst **S**earch)
+	* [ ] Wszerz (**B**readth **F**irst **S**earch)
+* Spójne składowe, mosty
+	* [ ] Low (znajdowanie mostów)
+	* [ ] Silnie spójna składowa (**S**trongly **C**oneccted **C**omponents)
+* Najkrótsze ścieżki z jednego punktu
+	* [ ] Bellman-Ford
+	* [x] [Dijkstra](Algorytmy/Grafy/Najkr_sciezki_z_jednego_pkt/Dijkstra)
+	* [ ] A*
+* Najkrótsze ścieżki dla każdej pary
+	* [ ] Floyd-Warshall
+* Cykle
+	* [ ] [Euler path](Algorytmy/Grafy/Cykle/Euler_path)
+* Inne
+	* [ ] Sortowanie topologiczne (TOPOSort)
 
-## Operacje na grafach
-* [x] DFS
-* [x] BFS
-* [ ] Dijkstra
-* [ ] TOPO Sort
-* [ ] Low
-* [ ] SCC
+## Drzewa
+* [ ] Union Find
+* Drzewo przedziałowe
+	* [ ] Drzewo przedział-punkt
+	* [ ] Drzewo przedział-przedział (lazy)
+* Najniższy wspólny przodek (**L**owes **C**ommon **A**ncestor)
+	* [ ] LCA
+	* [ ] Binary lifting
+* Minimalne drzewo rozpinające (**M**inimmal **S**panning **T**ree)
+	* [ ] Metoda Prima
+	* [ ] Metoda Kruskala
+* [ ] Ciężkie lekkie - dekompozycja (**H**eavy **L**ight **D**ecomposition)
+
+## Ciągi
+* [ ] Najdłuższy rosnący podciąg (**L**ongest **I**ncreasing **S**ubsequence)
+* [ ] Najdłuższy wspólny podciąg (**L**ongest **C**ommon **S**ubsequence)
+* [ ] Suma po podciągach (**S**um **O**ver **S**ubsets)
+* [ ] **P**odciąg **S**pójny **O** **M**aksymalnej **S**umie
+* [ ] Meet in the middle
+* [ ] Dziel i zwyciężaj (Divide and conquer)
 
 ## Sortowania
-* [ ] Sortowanie przez scalanie
-* [ ] Sortowanie szybkie
-* [ ] Sortowanie przez zliczanie
-* [ ] Sortowanie bąbelkowe
+* [ ] Merge sort
+* [ ] Quick sort
+* [ ] Counting sort
+* [ ] Bubble sort
 
-## Inne algorytmy
-* [x] Szybki Fibbonacci
-* [x] Kod Graya
-* [ ] LCS
-* [ ] LIS
+## Inne
 * [ ] Sztuczka MO
-* [ ] PSOMS
-* [ ] Union Find
-* [ ] A*
-* [ ] SOS
-* [ ] Meet in the middle
-* [ ] Euler tour
+* [ ] Symbo Newtona (binomial coefficient)
+* [ ] **M**onte **C**arlo **T**ree **S**earch
+* [Tricki](Algorytmy/Inne/Tricki)
