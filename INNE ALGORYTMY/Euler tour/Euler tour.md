@@ -1,9 +1,11 @@
 # Euler tour
 
 ## Działanie ogółem
-Ścieżka Eulera - przejście po grafie używając wszystkich krawędzi dokładnie jeden raz. Jej początek i koniec nie są w tym samym miejscu. Dla każdego wirzchołka, oprócz startowego i końcowego, liczba jego odwiedzeń jest parzysta.
+* Stopień wierzchołka (vertex degree) - liczba wierzchołków, jakie wchodzą do krawędzi == liczba odwiedzeń wierzchołka.
 
-Obwód Eulera - to ścieżka Eulera, której początek i koniec są w tym samym miejscu. Dla każdego wierzchołka liczba jego odwiedzeń jest parzysta.
+* Ścieżka Eulera (Euler path / trail) - ścieżka na grafie, która przechodzi po wszystkich krawędziach dokładnie raz. Stopień każdego wierzchołka jest parzysty.
+
+* Obwód Eulera (Euler circuit / cycle) - to ścieżka Eulera, której początek i koniec są w tym samym miejscu (jest zamknięta).
 
 ## Działanie konkretniej
 
