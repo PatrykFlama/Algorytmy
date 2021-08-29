@@ -7,6 +7,7 @@
 * [x] TRIE
 
 ## Geometria
+* [x] Struktura
 * [x] Pole trójkata
 * [ ] Pole wielokata
 * [x] Otoczka wypukła (convex hull)
