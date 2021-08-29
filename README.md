@@ -23,7 +23,7 @@
 * [x] DFS
 * [x] BFS
 * [ ] Dijkstra
-* [ ] TOPOSort
+* [ ] TOPO Sort
 * [ ] Low
 * [ ] SCC
 
