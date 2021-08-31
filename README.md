@@ -3,9 +3,9 @@
 ## Algebra
 * Podstawy
 	* [x] [Szybkie potęgowanie](Algorytmy/Algebra/Podstawy/Szybkie_potegowanie)
-	* [ ] [**N**ajwiększy **W**spólny **D**zielnik (**G**reatest **C**ommon **D**ivisor)](Algorytmy/Algebra/Podstawy/Najwiekszy_Wspolny_Dzielnik)
-	* [ ] **N**ajmniejsza **W**spólna **W**ielokrotność (**L**owest **C**ommon **M**ultiple)
-	* [ ] Rozszerzony algorytm Euklidesa
+	* [x] [**N**ajwiększy **W**spólny **D**zielnik (**G**reatest **C**ommon **D**ivisor)](Algorytmy/Algebra/Podstawy/Najwiekszy_Wspolny_Dzielnik)
+	* [x] [**N**ajmniejsza **W**spólna **W**ielokrotność (**L**owest **C**ommon **M**ultiple)](Algorytmy/Algebra/Podstawy/Najmniejsza_Wspolna_Wielokrotnosc)
+	* [x] [Rozszerzony algorytm Euklidesa](Algorytmy/Algebra/Podstawy/Rozszerzony_algorytm_Euklidesa)
 	* [ ] Liczby Fibonacciego
 * Liczby pierwsze
 	* [ ] Sito Erastotenesa
