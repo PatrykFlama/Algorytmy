@@ -1,3 +1,5 @@
+[Wróć](../../../../../..)
+
 # Szybkie potęgowanie
 
 ## Na czym polega?

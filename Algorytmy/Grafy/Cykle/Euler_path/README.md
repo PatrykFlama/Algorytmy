@@ -1,3 +1,5 @@
+[Wróć](../../../../../..)
+
 # Euler path
 
 * Stopień wierzchołka (vertex degree) - liczba krawędzi, jakie wchodzą do wierzchołka == liczba odwiedzeń wierzchołka.

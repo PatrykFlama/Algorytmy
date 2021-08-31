@@ -3,7 +3,7 @@
 ## Algebra
 * Podstawy
 	* [x] [Szybkie potęgowanie](Algorytmy/Algebra/Podstawy/Szybkie_potegowanie)
-	* [ ] **N**ajwiększy **W**spólny **D**zielnik (**G**reatest **C**ommon **D**ivisor)
+	* [ ] [**N**ajwiększy **W**spólny **D**zielnik (**G**reatest **C**ommon **D**ivisor)](Algorytmy/Algebra/Podstawy/Najwiekszy_Wspolny_Dzielnik)
 	* [ ] **N**ajmniejsza **W**spólna **W**ielokrotność (**L**owest **C**ommon **M**ultiple)
 	* [ ] Rozszerzony algorytm Euklidesa
 	* [ ] Liczby Fibonacciego

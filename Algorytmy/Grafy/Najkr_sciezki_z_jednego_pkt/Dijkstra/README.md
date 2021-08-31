@@ -1,3 +1,5 @@
+[Wróć](../../../../../..)
+
 # Dijkstra
 
 ## Zasada działania algorytmu

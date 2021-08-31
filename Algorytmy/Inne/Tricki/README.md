@@ -1,3 +1,5 @@
+[Wróć](../../../../../..)
+
 # Tricki C++
 <details>
 <summary> Łatwe wypisywanie maski </summary>
