@@ -1,4 +1,4 @@
-![Tryb jasny](Algorytmy_jasny)
+[Tryb jasny](Algorytmy_jasny)
 # Algorytmy
 
 ## Algebra

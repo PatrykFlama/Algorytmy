@@ -1,4 +1,4 @@
-![Tryb ciemny](../../..)
+[Tryb ciemny](../../..)
 # Algorytmy
 
 ## Algebra
