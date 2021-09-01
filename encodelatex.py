@@ -50,9 +50,10 @@ def render(text):
     d = f'\$'      # $
     dd = d * 2     # $$
     for result in re.finditer(rf'{dd}({e}){dd}', text):
-        eq_raw = result.group(1)
+        # eq_raw = "\\color{{white}}"
+        eq_raw += result.group(1)
         eq = eq_raw.strip().replace(' ', '%20').replace('\n', '')
-        eq = f'<img src="{API}{eq}" style="filter:invert(1)">'       # end link assemble (; background-color:white)
+        eq = f'![]({API}\\color%20{{white}}{eq})'       # end link assemble (style="filter:invert(1); background-color:white")
 
         eq_raw = '$$' + eq_raw + '$$'
         placeholder = random_seq(len(eq_raw), cnt, "eq")
@@ -61,9 +62,11 @@ def render(text):
         cnt += 1
 
     for result in re.finditer(rf'{d}({e}){d}', text):
+        # eq_raw = "\\color{{white}}"
         eq_raw = result.group(1)
         eq = eq_raw.strip().replace(' ', '%20').replace('\n', '')
-        eq = f'<img src="{API}{eq}" style="filter:invert(1)">'       # end link assemble
+        eq = f'![]({API}\\color%20{{white}}{eq})'       # end link assemble
+        print (eq)
 
         eq_raw = '$' + eq_raw + '$'
         placeholder = random_seq(len(eq_raw), cnt, "eq")
@@ -91,7 +94,7 @@ def render_markdown(md_file):
         fp.write(text)
 
 
-path = os.path.dirname(os.path.realpath(__file__)) + "/Algorytmy"
+path = os.path.dirname(os.path.realpath(__file__)) + "\\Algorytmy"
 
 for subdir, dirs, files in os.walk(path):
     for filename in files:

@@ -3,10 +3,10 @@
 # Szybkie potęgowanie
 
 ## Na czym polega?
-Zwykłe podnoszenie *n* do *k* potęgi jest naiwnym mnożeniem <img src="https://latex.codecogs.com/svg.image?n^k=n*n*n*%20\ldots%20*%20n" style="filter:invert(1)">. \
+Zwykłe podnoszenie *n* do *k* potęgi jest naiwnym mnożeniem ![](https://latex.codecogs.com/svg.image?\color%20{white}n^k=n*n*n*%20\ldots%20*%20n). \
 Aby przyspiezsyć ten proces będziemy rozkładać potęgę: \
-<img src="https://latex.codecogs.com/svg.image?n^k%20=%20(n^{k/2})%20*%20(n^{k/2})" style="filter:invert(1)">, gdy <img src="https://latex.codecogs.com/svg.image?k|2" style="filter:invert(1)"> \
-<img src="https://latex.codecogs.com/svg.image?n^k%20=%20(n^{k/2})%20*%20(n^{k/2})%20*%20n" style="filter:invert(1)">, gdy <img src="https://latex.codecogs.com/svg.image?k+1|2" style="filter:invert(1)">
+![](https://latex.codecogs.com/svg.image?\color%20{white}n^k%20=%20(n^{k/2})%20*%20(n^{k/2})), gdy ![](https://latex.codecogs.com/svg.image?\color%20{white}k|2) \
+![](https://latex.codecogs.com/svg.image?\color%20{white}n^k%20=%20(n^{k/2})%20*%20(n^{k/2})%20*%20n), gdy ![](https://latex.codecogs.com/svg.image?\color%20{white}k+1|2)
 
 * Rozwiązanie rekurencyjne
 ```c++

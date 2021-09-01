@@ -4,4 +4,4 @@
 
 ## Algorytm
 
-<img src="https://latex.codecogs.com/svg.image?NWW(a,%20b)%20=%20\frac{a*b}{NWD(a,%20b)}" style="filter:invert(1)">
+![](https://latex.codecogs.com/svg.image?\color%20{white}NWW(a,%20b)%20=%20\frac{a*b}{NWD(a,%20b)})
