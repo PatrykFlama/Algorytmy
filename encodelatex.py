@@ -91,7 +91,7 @@ def render_markdown(md_file):
         fp.write(text)
 
 
-path = os.path.dirname(os.path.realpath(__file__))
+path = os.path.dirname(os.path.realpath(__file__)) + "/Algorytmy"
 
 for subdir, dirs, files in os.walk(path):
     for filename in files:

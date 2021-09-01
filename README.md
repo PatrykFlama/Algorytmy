@@ -83,4 +83,3 @@
 * [ ] Symbo Newtona (binomial coefficient)
 * [ ] **M**onte **C**arlo **T**ree **S**earch
 * [Tricki](Algorytmy/Inne/Tricki)
-/pagecolor{white}/pagecolor{white}
