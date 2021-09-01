@@ -52,7 +52,7 @@ def render(text):
     for result in re.finditer(rf'{dd}({e}){dd}', text):
         eq_raw = result.group(1)
         eq = eq_raw.strip().replace(' ', '%20').replace('\n', '')
-        eq = f'<img src="{API}{eq}" style="filter:invert(1)">'       # end link assemble
+        eq = f'<img src="{API}{eq}" style="filter:invert(1)">'       # end link assemble (; background-color:white)
 
         eq_raw = '$$' + eq_raw + '$$'
         placeholder = random_seq(len(eq_raw), cnt, "eq")
