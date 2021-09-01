@@ -3,5 +3,5 @@
 # **N**ajwiększy **W**spólny **D**zielnik
 
 ## Algorytm
-$nwd(a, b) = a$, jeżeli b = 0 \
-$nwd(a, b) = nwd(b, a \bmod b)$, w przeciwnym przypadku
+![](https://latex.codecogs.com/svg.image?nwd(a,%20b)%20=%20a), jeżeli b = 0 \
+![](https://latex.codecogs.com/svg.image?nwd(a,%20b)%20=%20nwd(b,%20a%20\bmod%20b)), w przeciwnym przypadku

@@ -3,10 +3,10 @@
 # Szybkie potęgowanie
 
 ## Na czym polega?
-Zwykłe podnoszenie *n* do *k* potęgi jest naiwnym mnożeniem $n^k=n*n*n* \ldots * n$. \
+Zwykłe podnoszenie *n* do *k* potęgi jest naiwnym mnożeniem ![](https://latex.codecogs.com/svg.image?n^k=n*n*n*%20\ldots%20*%20n). \
 Aby przyspiezsyć ten proces będziemy rozkładać potęgę: \
-$n^k = (n^{k/2}) * (n^{k/2})$, gdy $k|2$ \
-$n^k = (n^{k/2}) * (n^{k/2}) * n$, gdy $k+1|2$
+![](https://latex.codecogs.com/svg.image?n^k%20=%20(n^{k/2})%20*%20(n^{k/2})), gdy ![](https://latex.codecogs.com/svg.image?k|2) \
+![](https://latex.codecogs.com/svg.image?n^k%20=%20(n^{k/2})%20*%20(n^{k/2})%20*%20n), gdy ![](https://latex.codecogs.com/svg.image?k+1|2)
 
 * Rozwiązanie rekurencyjne
 ```c++
