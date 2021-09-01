@@ -18,7 +18,7 @@
 ## Struktury danych
 * [ ] Stos (stack)
 * [ ] Kolejka (queue)
-* [ ] Sparse table
+* [ ] [Sparse table](Algorytmy/Struktury_danych/Sparse_table)
 
 ## Algorytmy tekstowe
 * [ ] Hashowanie wyrazów
