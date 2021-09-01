@@ -7,7 +7,7 @@ Kod Graya to pętla po maskach bitowych, w których z jednej iteracji na drugą 
 Innymi słowy - kod Graya to przetworzenie zwykłej maski (takiej, jaką mamy przy iteracjach z dodawaniem) prostym działaniem, tak aby zmieniał się tylko jeden bit w masce.
 
 ## Złożoność czasowa
-![](https://latex.codecogs.com/svg.image?O(n))
+<img src="https://latex.codecogs.com/svg.image?O(n)" style="filter:invert(1)">
 
 ## Złożoność pamięciowa
 stała

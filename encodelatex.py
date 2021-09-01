@@ -52,7 +52,7 @@ def render(text):
     for result in re.finditer(rf'{dd}({e}){dd}', text):
         eq_raw = result.group(1)
         eq = eq_raw.strip().replace(' ', '%20').replace('\n', '')
-        eq = f'![]({API}{eq})'
+        eq = f'<img src="{API}{eq}" style="filter:invert(1)">'       # end link assemble
 
         eq_raw = '$$' + eq_raw + '$$'
         placeholder = random_seq(len(eq_raw), cnt, "eq")
@@ -63,7 +63,7 @@ def render(text):
     for result in re.finditer(rf'{d}({e}){d}', text):
         eq_raw = result.group(1)
         eq = eq_raw.strip().replace(' ', '%20').replace('\n', '')
-        eq = f'![]({API}{eq})'
+        eq = f'<img src="{API}{eq}" style="filter:invert(1)">'       # end link assemble
 
         eq_raw = '$' + eq_raw + '$'
         placeholder = random_seq(len(eq_raw), cnt, "eq")
@@ -102,3 +102,4 @@ for subdir, dirs, files in os.walk(path):
             render_markdown(filepath)
 
 exit = input("Press Enter to continue...")
+print(exit)
