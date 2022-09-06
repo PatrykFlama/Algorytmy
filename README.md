@@ -8,7 +8,7 @@
 	* [x] [Rozszerzony algorytm Euklidesa](Algorytmy/Algebra/Podstawy/Rozszerzony_algorytm_Euklidesa)
 	* [ ] Liczby Fibonacciego
 * Liczby pierwsze
-	* [x] [Sito Erastotenesa](algorytmy/algebra/Liczby_pierwsze/Sito_Erastotenesa/README.md)
+	* [x] [Sito Erastotenesa](Algorytmy/Algebra/Liczby_pierwsze/Sito_Erastotenesa)
 	* [ ] Sito Erastotenesa w czasie liniowym
 	* [ ] Test pierwszości
 	* [ ] Rozkład na czynniki pierwsze
