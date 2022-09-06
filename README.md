@@ -1,4 +1,3 @@
-[Tryb jasny](Algorytmy_jasny)
 # Algorytmy
 
 ## Algebra
