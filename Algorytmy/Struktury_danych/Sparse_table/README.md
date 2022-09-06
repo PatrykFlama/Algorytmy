@@ -1,4 +1,4 @@
-[Wróć](../../../../../..)
+[Wróć](../../../../../../)
 
 # Sparse table (range minimum query)
 
