@@ -1,4 +1,4 @@
-[Wróć](github.com/PatrykFlama/Algorytmy)
+[Wróć](/../../../../../../../../)
 
 # **N**ajwiększy **W**spólny **D**zielnik
 
