@@ -1,4 +1,4 @@
-[Wróć](../../../../../..)
+[Wróć](../../../../../../)
 
 # Rozszerzony algorytm Euklidesa
 
