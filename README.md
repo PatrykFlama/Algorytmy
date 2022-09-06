@@ -6,7 +6,7 @@
 	* [x] [**N**ajwiększy **W**spólny **D**zielnik (**G**reatest **C**ommon **D**ivisor)](Algorytmy/Algebra/Podstawy/Najwiekszy_Wspolny_Dzielnik)
 	* [x] [**N**ajmniejsza **W**spólna **W**ielokrotność (**L**owest **C**ommon **M**ultiple)](Algorytmy/Algebra/Podstawy/Najmniejsza_Wspolna_Wielokrotnosc)
 	* [x] [Rozszerzony algorytm Euklidesa](Algorytmy/Algebra/Podstawy/Rozszerzony_algorytm_Euklidesa)
-	* [ ] Liczby Fibonacciego
+	* [x] [Liczby Fibonacciego](Algorytmy/Algebra/Podstawy/Liczby_Fibonacciego)
 * Liczby pierwsze
 	* [x] [Sito Erastotenesa](Algorytmy/Algebra/Liczby_pierwsze/Sito_Erastotenesa)
 	* [ ] Sito Erastotenesa w czasie liniowym
