@@ -8,16 +8,19 @@ Algorytm można w prosty sposób przyspieszyć dwukrotnie, wykluczając liczby p
 
 ## Algorytm
 ```cpp
-bool[] sito(int len){
-    bool sito[len];
-    fill(sito, sito+len, true);
+bool[] sito(int max_liczba){
+    max_liczba++;
+    bool sito[max_liczba];
+    fill(sito, sito+max_liczba, true);
 
-    for(int i = 2; i < len; i++){
+    for(int i = 2; i < max_liczba; i++){
         if(sito[i] == true){
-            for(int j = i*2; j < len; j+=i){
+            for(int j = i*2; j < max_liczba; j+=i){
                 sito[j] = false;
             }
         }
     }
+
+    return sito;
 }
 ```
