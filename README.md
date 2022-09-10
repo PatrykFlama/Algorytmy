@@ -52,7 +52,6 @@
 	* [ ] Sortowanie topologiczne (TOPOSort)
 
 ## Drzewa
-* [ ] Union Find
 * Drzewo przedziałowe
 	* [ ] Drzewo przedział-punkt
 	* [ ] Drzewo przedział-przedział (lazy)
@@ -63,6 +62,7 @@
 	* [ ] Metoda Prima
 	* [ ] Metoda Kruskala
 * [ ] Ciężkie lekkie - dekompozycja (**H**eavy **L**ight **D**ecomposition)
+* [ ] Union Find
 
 ## Ciągi
 * [ ] Najdłuższy rosnący podciąg (**L**ongest **I**ncreasing **S**ubsequence)
