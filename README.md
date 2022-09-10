@@ -82,5 +82,5 @@
 * [ ] Sztuczka MO
 * [ ] Symbo Newtona (binomial coefficient)
 * [ ] **M**onte **C**arlo **T**ree **S**earch
-* [Tricki](Algorytmy/Inne/Tricki)
+* [ ] [Tricki](Algorytmy/Inne/Tricki)
 * [ ] **C**ircle **H**ough **T**ransform
