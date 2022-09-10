@@ -9,3 +9,5 @@ cout << bitset<4>(maska).to_string() << "\n";
 ```
 
 </details>  
+
+# __builtin_comm
