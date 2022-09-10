@@ -61,8 +61,9 @@
 * Minimalne drzewo rozpinające (**M**inimmal **S**panning **T**ree)
 	* [ ] Metoda Prima
 	* [ ] Metoda Kruskala
-* [ ] Ciężkie lekkie - dekompozycja (**H**eavy **L**ight **D**ecomposition)
-* [ ] Union Find
+* Inne
+	* [ ] Ciężkie lekkie - dekompozycja (**H**eavy **L**ight **D**ecomposition)
+	* [ ] Union Find
 
 ## Ciągi
 * [ ] Najdłuższy rosnący podciąg (**L**ongest **I**ncreasing **S**ubsequence)
