@@ -11,7 +11,7 @@
 	* [x] [Sito Erastotenesa](Algorytmy/Algebra/Liczby_pierwsze/Sito_Erastotenesa)
 	* [ ] Sito Erastotenesa w czasie liniowym
 	* [x] [Test pierwszości](Algorytmy/Algebra/Liczby_pierwsze/Test_pierwszosci)
-	* [ ] Rozkład na czynniki pierwsze
+	* [x] [Rozkład na czynniki pierwsze](Algorytmy/Algebra/Liczby_pierwsze/Rozklad_na_czynniki_pierwsze)
 * Systemy liczbowe
 	* [x] [Kod Graya](Algorytmy/Algebra/Systemy_liczbowe/Kod_Graya)
 
