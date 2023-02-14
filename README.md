@@ -35,8 +35,8 @@
 
 ## Grafy
 * Przeszukiwania
-	* [ ] Wgłąb (**D**epth **F**irst **S**earch)
-	* [ ] Wszerz (**B**readth **F**irst **S**earch)
+	* [ ] [Wgłąb (**D**epth **F**irst **S**earch)](Algorytmy/Grafy/Przeszukiwania/Depth_First_Search)
+	* [ ] [Wszerz (**B**readth **F**irst **S**earch)](Algorytmy/Grafy/Przeszukiwania/Breadth_First_Search)
 * Spójne składowe, mosty
 	* [ ] Low (znajdowanie mostów)
 	* [ ] Silnie spójna składowa (**S**trongly **C**oneccted **C**omponents)
