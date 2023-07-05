@@ -4,7 +4,8 @@
 
 ## Działanie
 Algorytm z ciągu arytmetycznego _r = 1_ wydzedza liczby pierwsze, wykreślając każdy iloczyn liczby (_>1_) z listy liczb pierwszych.
-Algorytm można w prosty sposób przyspieszyć dwukrotnie, wykluczając liczby parzyste z obliczeń.
+Algorytm można nieznacznie przyspieszyć (dwukrotnie), wykluczając liczby parzyste z obliczeń.  
+Dodatkowo można lekko zmienić implementację i zastosować maski bitowe, aby zmniejszyć zużycie pamięci.
 
 ## Algorytm
 ```cpp

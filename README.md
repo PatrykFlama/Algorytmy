@@ -9,7 +9,7 @@
 	* [x] [Liczby Fibonacciego](Algorytmy/Algebra/Podstawy/Liczby_Fibonacciego)
 * Liczby pierwsze
 	* [x] [Sito Erastotenesa](Algorytmy/Algebra/Liczby_pierwsze/Sito_Erastotenesa)
-	* [ ] Sito Erastotenesa w czasie liniowym
+	* [ ] [Liczby pierwsze na przedziale w czasie liniowym](Algorytmy/Algebra/Liczby_pierwsze/LinioweLiczbyPierwsze)
 	* [x] [Test pierwszości](Algorytmy/Algebra/Liczby_pierwsze/Test_pierwszosci)
 	* [x] [Rozkład na czynniki pierwsze](Algorytmy/Algebra/Liczby_pierwsze/Rozklad_na_czynniki_pierwsze)
 * Systemy liczbowe
@@ -37,6 +37,7 @@
 * Przeszukiwania
 	* [x] [Wgłąb (**D**epth **F**irst **S**earch)](Algorytmy/Grafy/Przeszukiwania/Depth_First_Search)
 	* [x] [Wszerz (**B**readth **F**irst **S**earch)](Algorytmy/Grafy/Przeszukiwania/Breadth_First_Search)
+	* [ ] **M**onte **C**arlo **T**ree **S**earch
 * Spójne składowe, mosty
 	* [ ] Low (znajdowanie mostów)
 	* [ ] Silnie spójna składowa (**S**trongly **C**oneccted **C**omponents)
@@ -74,15 +75,14 @@
 * [ ] Dziel i zwyciężaj (Divide and conquer)
 
 ## Sortowania
+* [ ] Bubble sort
+* [ ] Counting sort
 * [ ] Merge sort
 * [ ] Quick sort
-* [ ] Counting sort
-* [ ] Bubble sort
 
 ## Inne
 * [ ] Sztuczka MO
 * [ ] Symbo Newtona (binomial coefficient)
-* [ ] **M**onte **C**arlo **T**ree **S**earch
 * [ ] [Tricki](Algorytmy/Inne/Tricki)
 * [ ] **C**ircle **H**ough **T**ransform
 * [ ] Karatsuba
