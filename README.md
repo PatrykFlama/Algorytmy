@@ -9,7 +9,7 @@
 	* [x] [Liczby Fibonacciego](Algorytmy/Algebra/Podstawy/Liczby_Fibonacciego)
 * Liczby pierwsze
 	* [x] [Sito Erastotenesa](Algorytmy/Algebra/Liczby_pierwsze/Sito_Erastotenesa)
-	* [ ] [Liczby pierwsze na przedziale w czasie liniowym](Algorytmy/Algebra/Liczby_pierwsze/LinioweLiczbyPierwsze)
+	* [x] [Liczby pierwsze na przedziale w czasie liniowym](Algorytmy/Algebra/Liczby_pierwsze/LinioweLiczbyPierwsze)
 	* [x] [Test pierwszości](Algorytmy/Algebra/Liczby_pierwsze/Test_pierwszosci)
 	* [x] [Rozkład na czynniki pierwsze](Algorytmy/Algebra/Liczby_pierwsze/Rozklad_na_czynniki_pierwsze)
 * Systemy liczbowe
