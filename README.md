@@ -46,11 +46,12 @@
 	* [x] [Dijkstra](Algorytmy/Grafy/Najkr_sciezki_z_jednego_pkt/Dijkstra)
 	* [ ] A*
 * Najkrótsze ścieżki dla każdej pary
-	* [ ] Floyd-Warshall
+	* [X] [Floyd-Warshall](Algorytmy/Grafy/Najkr_sciezki_dla_kazdej_pary/Floyd-Warshall)
 * Cykle
 	* [ ] [Euler path](Algorytmy/Grafy/Cykle/Euler_path)
 * Inne
 	* [ ] Sortowanie topologiczne (TOPOSort)
+* [X] [Szukanie mostów](Algorytmy/Grafy/Szukanie_mostow)
 
 ## Drzewa
 * Drzewo przedziałowe
