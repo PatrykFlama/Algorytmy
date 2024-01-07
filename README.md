@@ -75,14 +75,17 @@
 * [ ] Dziel i zwyciężaj (Divide and conquer)
 
 ## Sortowania
-* [ ] Bubble sort
-* [ ] Counting sort
-* [ ] Merge sort
-* [ ] Quick sort
+* [ ] Mergesort
+* [ ] Quicksort
+* [ ] Heapsort
+* Sortowanie w czasie liniowym
+  * [X] [Sortowanie przez zliczanie (counting sort)](Algorytmy/Sortowania/sortowanie_w_czasie_liniowym/Sortowanie_przez_zliczanie/)
+  * [X] [Sortowanie pozycyjne (radix sort)](Algorytmy/Sortowania/sortowanie_w_czasie_liniowym/Sortowanie_pozycyjne/)
+  * [X] [Sortowanie kubełkowe (bucket sort)](Algorytmy/Sortowania/sortowanie_w_czasie_liniowym/Sortowanie_kubelkowe/)
 
 ## Inne
 * [ ] Sztuczka MO
-* [ ] Symbo Newtona (binomial coefficient)
+* [ ] Symbol Newtona (binomial coefficient)
 * [ ] [Tricki](Algorytmy/Inne/Tricki)
 * [ ] **C**ircle **H**ough **T**ransform
 * [ ] Karatsuba
