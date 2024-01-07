@@ -19,7 +19,7 @@
 * [ ] Stos (stack)
 * [ ] Kolejka (queue)
 * [ ] [Sparse table](Algorytmy/Struktury_danych/Sparse_table)
-* [ ] [Union-Find](Algorytmy/Struktury_danych/Union-Find)
+* [X] [Union-Find](Algorytmy/Struktury_danych/Union-Find)
 
 ## Algorytmy tekstowe
 * [ ] Hashowanie wyrazów
@@ -38,7 +38,6 @@
 * Przeszukiwania
 	* [x] [Wgłąb (**D**epth **F**irst **S**earch)](Algorytmy/Grafy/Przeszukiwania/Depth_First_Search)
 	* [x] [Wszerz (**B**readth **F**irst **S**earch)](Algorytmy/Grafy/Przeszukiwania/Breadth_First_Search)
-	* [ ] **M**onte **C**arlo **T**ree **S**earch
 * Spójne składowe, mosty
 	* [ ] Low (znajdowanie mostów)
 	* [ ] Silnie spójna składowa (**S**trongly **C**oneccted **C**omponents)
