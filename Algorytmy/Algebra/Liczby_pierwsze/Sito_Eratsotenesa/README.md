@@ -1,6 +1,6 @@
 [Wróć](../../../../../../)
 
-# Sito Erastotenesa
+# Sito Eratsotenesa
 
 ## Działanie
 Algorytm z ciągu arytmetycznego _r = 1_ wydzedza liczby pierwsze, wykreślając każdy iloczyn liczby (_>1_) z listy liczb pierwszych.

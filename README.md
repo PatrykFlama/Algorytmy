@@ -8,7 +8,7 @@
 	* [x] [Rozszerzony algorytm Euklidesa](Algorytmy/Algebra/Podstawy/Rozszerzony_algorytm_Euklidesa)
 	* [x] [Liczby Fibonacciego](Algorytmy/Algebra/Podstawy/Liczby_Fibonacciego)
 * Liczby pierwsze
-	* [x] [Sito Erastotenesa](Algorytmy/Algebra/Liczby_pierwsze/Sito_Erastotenesa)
+	* [x] [Sito Eratsotenesa](Algorytmy/Algebra/Liczby_pierwsze/Sito_Eratsotenesa)
 	* [x] [Liczby pierwsze na przedziale w czasie liniowym](Algorytmy/Algebra/Liczby_pierwsze/LinioweLiczbyPierwsze)
 	* [x] [Test pierwszości](Algorytmy/Algebra/Liczby_pierwsze/Test_pierwszosci)
 	* [x] [Rozkład na czynniki pierwsze](Algorytmy/Algebra/Liczby_pierwsze/Rozklad_na_czynniki_pierwsze)
@@ -19,6 +19,7 @@
 * [ ] Stos (stack)
 * [ ] Kolejka (queue)
 * [ ] [Sparse table](Algorytmy/Struktury_danych/Sparse_table)
+* [ ] [Union-Find](Algorytmy/Struktury_danych/Union-Find)
 
 ## Algorytmy tekstowe
 * [ ] Hashowanie wyrazów
@@ -65,7 +66,6 @@
 	* [ ] Metoda Kruskala
 * Inne
 	* [ ] Ciężkie lekkie - dekompozycja (**H**eavy **L**ight **D**ecomposition)
-	* [ ] Union Find
 
 ## Ciągi
 * [ ] Najdłuższy rosnący podciąg (**L**ongest **I**ncreasing **S**ubsequence)
