@@ -39,19 +39,17 @@
 	* [x] [Wgłąb (**D**epth **F**irst **S**earch)](Algorytmy/Grafy/Przeszukiwania/Depth_First_Search)
 	* [x] [Wszerz (**B**readth **F**irst **S**earch)](Algorytmy/Grafy/Przeszukiwania/Breadth_First_Search)
 * Spójne składowe, mosty
-	* [ ] Low (znajdowanie mostów)
+    * [X] [Szukanie mostów (low)](Algorytmy/Grafy/Szukanie_mostow)
 	* [ ] Silnie spójna składowa (**S**trongly **C**oneccted **C**omponents)
-* Najkrótsze ścieżki z jednego punktu
+* Najkrótsze ścieżki
 	* [ ] Bellman-Ford
 	* [x] [Dijkstra](Algorytmy/Grafy/Najkr_sciezki_z_jednego_pkt/Dijkstra)
 	* [ ] A*
-* Najkrótsze ścieżki dla każdej pary
-	* [X] [Floyd-Warshall](Algorytmy/Grafy/Najkr_sciezki_dla_kazdej_pary/Floyd-Warshall)
-* Cykle
-	* [ ] [Euler path](Algorytmy/Grafy/Cykle/Euler_path)
+    * [X] [Floyd-Warshall](Algorytmy/Grafy/Floyd-Warshall)
 * Inne
+    * [ ] Cykl Eulera
+    * [ ] Cykl Hamiltona
 	* [ ] Sortowanie topologiczne (TOPOSort)
-* [X] [Szukanie mostów](Algorytmy/Grafy/Szukanie_mostow)
 
 ## Drzewa
 * Drzewo przedziałowe
