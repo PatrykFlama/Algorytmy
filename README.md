@@ -38,12 +38,13 @@
 * Przeszukiwania
 	* [x] [Wgłąb (**D**epth **F**irst **S**earch)](Algorytmy/Grafy/Przeszukiwania/Depth_First_Search)
 	* [x] [Wszerz (**B**readth **F**irst **S**earch)](Algorytmy/Grafy/Przeszukiwania/Breadth_First_Search)
-* Spójne składowe, mosty
-    * [X] [Szukanie mostów (low)](Algorytmy/Grafy/Szukanie_mostow)
+* Spójne składowe, mosty, punkty artykkulacji
+    * [X] [Szukanie mostów (low)](Algorytmy/Grafy/Spojne_skladowe/Szukanie_mostow)
+    * [X] [Szuaknie punktów artykulacji](Algorytmy/Grafy/Spojne_skladowe/Szukanie_punktow_artykulacji)
 	* [ ] Silnie spójna składowa (**S**trongly **C**oneccted **C**omponents)
 * Najkrótsze ścieżki
 	* [ ] Bellman-Ford
-	* [x] [Dijkstra](Algorytmy/Grafy/Najkr_sciezki_z_jednego_pkt/Dijkstra)
+	* [x] [Dijkstra](Algorytmy/Grafy/Najkr_sciezki/Dijkstra)
 	* [ ] A*
     * [X] [Floyd-Warshall](Algorytmy/Grafy/Floyd-Warshall)
 * Inne

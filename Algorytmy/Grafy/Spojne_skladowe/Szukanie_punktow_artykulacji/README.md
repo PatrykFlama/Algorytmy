@@ -1,7 +1,8 @@
 [Wróć](../../../../../)
 
-# Szukanie mostów
-Przechodząc przez graf za pomocą dfs nie przechodzimy przez wszystkie krawędzie, te które zostawiamy tworzą nam cykl do jakiegoś przodka - nie tworzą mostu w tym wierzchołku. 
+# Szukanie punktów artykulacji
+Przechodzimy przez graf za pomocą DFS i szukamy takich wierzchołków, dla których żaden z jego potomków nie ma krawędzi do przodka. Wtedy usuwając wierzchołek usuwamy całą spójną składową.  
+Jedyny wyjątek w algorytmie mamy dla korzenia przeszukania, który jest punktem artykulacji jeśli ma więcej niż jednego potomka.
 
 ```cpp
 int n; // number of nodes
@@ -25,10 +26,13 @@ void dfs(int v, int ancestor = -1) {
             lowest_ancestor[v] = min(lowest_ancestor[v], lowest_ancestor[to]);
             // if next vertex has a lower ancestor, when we would remove edge (v, to) vertex to would still be connected to higher ancestor, so edge (v, to) is not a bridge
             // otherwise vertex v is the highest (and only) ancestor of vertex to, so edge (v, to) is a bridge
-            if (lowest_ancestor[to] > time_in[v])
-                BRIDGE(v, to);  // v-to is a bridge
+            if (lowest_ancestor[to] >= time_in[v] && ancestor != -1)
+                ARTICULATION_POINT(v);  // v is an articulation point
         }
     }
+
+    if (ancestor == -1 && graph[v].size() > 1)
+        ARTICULATION_POINT(v);  // v is an articulation point
 }
 
 void find_bridges() {
