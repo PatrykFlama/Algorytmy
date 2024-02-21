@@ -41,7 +41,7 @@
 * Spójne składowe, mosty, punkty artykkulacji
     * [X] [Szukanie mostów (low)](Algorytmy/Grafy/Spojne_skladowe/Szukanie_mostow)
     * [X] [Szuaknie punktów artykulacji](Algorytmy/Grafy/Spojne_skladowe/Szukanie_punktow_artykulacji)
-	* [ ] Silnie spójna składowa (**S**trongly **C**oneccted **C**omponents)
+	* [ ] [Szukanie silnie spójnych składowych (Kosaraju's algorithm)](Algorytmy/Grafy/Spojne_skladowe/Kosarju)
 * Najkrótsze ścieżki
 	* [ ] Bellman-Ford
 	* [x] [Dijkstra](Algorytmy/Grafy/Najkr_sciezki/Dijkstra)
