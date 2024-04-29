@@ -13,6 +13,16 @@ using namespace std;
 
 /* --- MISC --- */
 #define cerr if (debug) cout
-#define fastio(mode) if(mode) {ios_base::sync_with_stdio(false); cin.tie(0); if(mode == 2) cout.tie(0);}
+#define fastio ios_base::sync_with_stdio(false); cin.tie(0);
 
 /* #endregion */
+
+
+uint_32 main() {
+    fastio();
+    // cout.tie(0);
+
+
+
+
+}
