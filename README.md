@@ -5,9 +5,9 @@
 * [X] - zrobione, wraz z przykładową implementacją 
 
 ## Proste struktury danych
-* [x] [Lista](Algorytmy/Proste_struktury_danych/Lista)
-  * [x] [Stos (stack)](Algorytmy/Proste_struktury_danych/Stos)
-  * [x] [Kolejka (queue)](Algorytmy/Proste_struktury_danych/Kolejka)
+* [X] [Lista](Algorytmy/Proste_struktury_danych/Lista)
+  * [X] [Stos (stack)](Algorytmy/Proste_struktury_danych/Stos)
+  * [X] [Kolejka (queue)](Algorytmy/Proste_struktury_danych/Kolejka)
 * [x] [Sparse table](Algorytmy/Proste_struktury_danych/Sparse_table)
 * [x] [Union-Find](Algorytmy/Proste_struktury_danych/Union-Find)
 
@@ -30,7 +30,7 @@
 	* [ ] Metoda Prima-Dijkstry
 	* [ ] Metoda Boruvki
 * [ ] Cykl Eulera
-* [ ] Cykl Hamiltona (np-trudny, algorytm mrówkowy)
+* [ ] Cykl Hamiltona (algorytm mrówkowy)
 * [ ] [Sortowanie topologiczne (TOPOSort)](Algorytmy/Grafy/Inne/TOPOsort)
 
 ### Drzewa
