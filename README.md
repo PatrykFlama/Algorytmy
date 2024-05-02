@@ -13,8 +13,8 @@
 
 ## Grafy
 * Przeszukiwania
-	* [x] [Wgłąb (**D**epth **F**irst **S**earch)](Algorytmy/Grafy/Przeszukiwania/Depth_First_Search)
-	* [x] [Wszerz (**B**readth **F**irst **S**earch)](Algorytmy/Grafy/Przeszukiwania/Breadth_First_Search)
+	* [X] [Wgłąb (**D**epth **F**irst **S**earch)](Algorytmy/Grafy/Przeszukiwania/Depth_First_Search)
+	* [X] [Wszerz (**B**readth **F**irst **S**earch)](Algorytmy/Grafy/Przeszukiwania/Breadth_First_Search)
 * Spójne składowe, mosty, punkty artykkulacji
     * [x] [Szukanie mostów (low)](Algorytmy/Grafy/Spojne_skladowe/Szukanie_mostow)
     * [x] [Szuaknie punktów artykulacji](Algorytmy/Grafy/Spojne_skladowe/Szukanie_punktow_artykulacji)
@@ -34,7 +34,7 @@
 * [ ] [Sortowanie topologiczne (TOPOSort)](Algorytmy/Grafy/Inne/TOPOsort)
 
 ### Drzewa
-* [ ] Kopiec
+* [x] [Kopiec](Algorytmy/Drzewa/Kopiec)
     * [ ] Kolejka priorytetowa
 * [ ] Binary Search Tree (_BST_)
 	* [ ] AVL
