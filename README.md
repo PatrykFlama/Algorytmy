@@ -25,7 +25,7 @@
     * [x] [Floyd-Warshall](Algorytmy/Grafy/Floyd-Warshall)
 	* [ ] A*
 	* [ ] Jump Point Search
-* Minimalne drzewo spinające (_MST_)
+* Minimalne drzewo rozpinające (**M**inimum **S**panning **T**ree)
 	* [ ] Metoda Kruskala
 	* [ ] Metoda Prima-Dijkstry
 	* [ ] Metoda Boruvki
@@ -36,7 +36,8 @@
 ### Drzewa
 * [x] [Kopiec](Algorytmy/Drzewa/Kopiec)
     * [ ] Kolejka priorytetowa
-* [ ] Binary Search Tree (_BST_)
+* [ ] Binary Search Tree (**B**inary **S**earch **T**ree)
+* Drzewa zbalansowane
 	* [ ] AVL
 	* [ ] B-drzewa
 	* [ ] Drzewa czerwono-czarne
@@ -45,9 +46,6 @@
 	* [ ] Drzewo przedział-przedział (lazy)
 * [ ] Najniższy wspólny przodek (**L**owes **C**ommon **A**ncestor)
 	* [ ] Binary lifting
-* Minimalne drzewo rozpinające (**M**inimmal **S**panning **T**ree)
-	* [ ] Metoda Prima
-	* [ ] Metoda Kruskala
 * Inne
 	* [ ] Ciężkie lekkie - dekompozycja (**H**eavy **L**ight **D**ecomposition)
 
