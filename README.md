@@ -42,8 +42,8 @@
 	* [ ] B-drzewa
 	* [ ] Drzewa czerwono-czarne
 * Drzewo przedziałowe
-	* [ ] Drzewo przedział-punkt
-	* [ ] Drzewo przedział-przedział (lazy)
+	* [x] [Drzewo przedział-punkt](Algorytmy/Drzewa/Przedzialowe/Normalne)
+	* [x] [Drzewo przedział-przedział (lazy)](Algorytmy/Drzewa/Przedzialowe/Lazy)
 * [ ] Najniższy wspólny przodek (**L**owes **C**ommon **A**ncestor)
 	* [ ] Binary lifting
 * Inne
@@ -100,3 +100,9 @@
 * [ ] [Tricki](Algorytmy/Inne/Tricki)
 * [ ] **C**ircle **H**ough **T**ransform
 * [ ] Karatsuba
+
+## CPP-specific
+* [Castwanie typów w cpp](https://stackoverflow.com/questions/332030/when-should-static-cast-dynamic-cast-const-cast-and-reinterpret-cast-be-used)
+* [Stronka do benchmarkowania](https://quick-bench.com/)
+* [Catching silly mistakes with GCC](https://codeforces.com/blog/entry/15547)
+
